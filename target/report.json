@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T05:35:07.238Z",
+        "line": 4,
+        "name": "Validate Orderbook",
+        "description": "",
+        "id": "verify-functionality-on-homepage;validate-orderbook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Orderbook",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_clicks_on_orderbook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Orderbook should get open",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.orderbook_should_get_open()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T05:35:07.369Z",
+        "line": 16,
+        "name": "Validate NetPosition",
+        "description": "",
+        "id": "verify-functionality-on-homepage;validate-netposition",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on NetPosition",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_clicks_on_netposition()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "NetPosition should get open",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.netposition_should_get_open()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T05:35:07.380Z",
+        "line": 22,
+        "name": "Validate Scanner",
+        "description": "",
+        "id": "verify-functionality-on-homepage;validate-scanner",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is on HomePage",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on Scanner",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.user_clicks_on_scanner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Scanner should get open",
+            "match": {
+              "location": "stepDefinitions.StepDefinitions.scanner_should_get_open()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Functionality on HomePage",
+    "description": "",
+    "id": "verify-functionality-on-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/HomePage.feature",
+    "tags": []
+  }
+]
